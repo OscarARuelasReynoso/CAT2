@@ -1486,8 +1486,10 @@ body {
     padding-top: 12px;
     text-transform: uppercase;
 }
+
 .single-footer-widget > span {display: block; margin-bottom: 11px;}
 .single-footer-widget > span i {font-size: 18px; width: 30px;}
+.single-footer-widget > span a {color: #ffffff; line-height: 25px;}
 .footer-list a {color: #ffffff; line-height: 25px;}
 .instagram-image {padding-top: 5px;}
 .footer-img {
