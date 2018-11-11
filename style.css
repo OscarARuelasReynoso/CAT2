@@ -387,6 +387,8 @@ body {
     font-size: 13px;
     position: relative
 }
+
+
 .header-top:before, .about-area:before, .newsletter-area:before {
     content: "";
     height: 48px;
@@ -412,6 +414,7 @@ body {
     width: 0;
 }
 .header-top span {padding: 14px 0; display: inline-block}
+
 .header-top-right > .content {
     display: inline-block;
     font-family: "montserratregular";
