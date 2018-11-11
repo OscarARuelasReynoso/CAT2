@@ -2631,6 +2631,7 @@ span.c-text {display: inline-block;}
 .service-tab{
     align-content: center;
     margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 .description-tab-menu ul{
@@ -2694,6 +2695,7 @@ span.c-text {display: inline-block;}
 
     margin-right: 3em;
 }
-/*.product-description-tab p span{
-    
-}*/
+.product-description-tab .h5{
+    font-size:large;
+
+}
