@@ -2688,5 +2688,9 @@ span.c-text {display: inline-block;}
   /*font-family: 'Montserrat', sans-serif;*/
 }
 .product-description-tab p {
+
     margin-right: 3em;
 }
+/*.product-description-tab p span{
+    
+}*/
