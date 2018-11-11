@@ -19,6 +19,9 @@
 
 /* Normal desktop :992px. */
 @media (min-width: 992px) and (max-width: 1169px) {
+    /*   */
+    .product-description-tab .tab-content {border: none;}
+    /*   */
     .container {width:970px}
     .as-mainwrapper.wrapper-boxed {width: 970px}
     .as-mainwrapper.wrapper-boxed .header-logo-menu.stick {width: 970px}
@@ -166,10 +169,21 @@
     }
     .banner-content h1.mt-60 {margin-top: 10px;}
     .video-wrapper, .video-banner {height: 430px}
+    /*   */
+    .description-tab-menu ul li {margin-right: 0px; width: 180px;}
+    .description-tab-menu ul li a {font-size: 12px}
+    .product-description-tab .tab-content { margin-bottom: 50px;padding-bottom: 30px}
+    /*   */
 }
 
 /* small mobile :320px. */
 @media (max-width: 767px) {
+    /*   */
+    .description-tab-menu ul li a {font-size: 11px; padding: 12px 0;}
+    .description-tab-menu ul li {margin-right: 0; width: 135px}
+    .product-description-tab .tab-content {margin-bottom: 50px;padding-bottom: 10px}
+    /*   */
+
     .container {width:300px}
     .as-mainwrapper.wrapper-boxed {width:300px}
     .mobile-menu-area {display: block}
@@ -364,6 +378,11 @@
 
 /* Large Mobile :480px. */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
+
+    /*   */
+    .description-tab-menu ul li {width: 210px;}
+    /*   */
+
     .container {width:450px}
     .single-item {margin: 0 14px 56px; padding: 0 47px;}
     .as-mainwrapper.wrapper-boxed {width:450px}
