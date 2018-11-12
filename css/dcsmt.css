@@ -307,37 +307,37 @@
 	padding: 10px 10px 10px 0;
 }
 /** Network specific colors **/
-.tab-content.tab-rss, .social-tabs li.active.dcsmt-rss, .social-tabs li.dcsmt-rss:hover, .tab-rss .dcsmt-btn {
+ .social-tabs li.active.dcsmt-rss, .social-tabs li.dcsmt-rss:hover, .tab-rss .dcsmt-btn {
 	background-color: #FF9800;
 }
-.tab-content.tab-flickr, .social-tabs li.active.dcsmt-flickr, .social-tabs li.dcsmt-flickr:hover, .tab-flickr .dcsmt-btn {
+ .social-tabs li.active.dcsmt-flickr, .social-tabs li.dcsmt-flickr:hover, .tab-flickr .dcsmt-btn {
 	background-color: #f90784;
 }
-.tab-content.tab-delicious, .social-tabs li.active.dcsmt-delicious, .social-tabs li.dcsmt-delicious:hover, .tab-delicious .dcsmt-btn {
+ .social-tabs li.active.dcsmt-delicious, .social-tabs li.dcsmt-delicious:hover, .tab-delicious .dcsmt-btn {
 	background-color: #3271CB;
 }
-.tab-content.tab-twitter, .social-tabs li.active.dcsmt-twitter, .social-tabs li.dcsmt-twitter:hover, .tab-twitter .dcsmt-btn{
+ .social-tabs li.active.dcsmt-twitter, .social-tabs li.dcsmt-twitter:hover, .tab-twitter .dcsmt-btn{
 	background-color: #4ec2dc;
 }
-.tab-content.tab-facebook, .social-tabs li.active.dcsmt-facebook, .social-tabs li.dcsmt-facebook:hover, .tab-facebook .dcsmt-btn {
+ .social-tabs li.active.dcsmt-facebook, .social-tabs li.dcsmt-facebook:hover, .tab-facebook .dcsmt-btn {
 	background-color: #3b5998;
 }
-.tab-content.tab-fblike, .social-tabs li.active.dcsmt-fblike, .social-tabs li.dcsmt-fblike:hover, .tab-fblike .dcsmt-btn {
+ .social-tabs li.active.dcsmt-fblike, .social-tabs li.dcsmt-fblike:hover, .tab-fblike .dcsmt-btn {
 	background-color: #3b5998;
 }
-.tab-content.tab-fbrec, .social-tabs li.active.dcsmt-fbrec, .social-tabs li.dcsmt-fbrec:hover, .tab-fbrec .dcsmt-btn {
+ .social-tabs li.active.dcsmt-fbrec, .social-tabs li.dcsmt-fbrec:hover, .tab-fbrec .dcsmt-btn {
 	background-color: #3b5998;
 }
-.tab-content.tab-google, .social-tabs li.active.dcsmt-google, .social-tabs li.dcsmt-google:hover, .tab-google .dcsmt-btn {
+ .social-tabs li.active.dcsmt-google, .social-tabs li.dcsmt-google:hover, .tab-google .dcsmt-btn {
 	background-color: #2d2d2d;
 }
-.tab-content.tab-youtube, .social-tabs li.active.dcsmt-youtube, .social-tabs li.dcsmt-youtube:hover, .tab-youtube .dcsmt-btn {
+ .social-tabs li.active.dcsmt-youtube, .social-tabs li.dcsmt-youtube:hover, .tab-youtube .dcsmt-btn {
 	background-color: #DF1F1C;
 }
-.tab-content.tab-digg, .social-tabs li.active.dcsmt-digg, .social-tabs li.dcsmt-digg:hover, .tab-digg .dcsmt-btn {
+ .social-tabs li.active.dcsmt-digg, .social-tabs li.dcsmt-digg:hover, .tab-digg .dcsmt-btn {
 	background-color: #195695;
 }
-.tab-content.tab-pinterest, .social-tabs li.active.dcsmt-pinterest, .social-tabs li.dcsmt-pinterest:hover, .tab-pinterest .dcsmt-btn {
+ .social-tabs li.active.dcsmt-pinterest, .social-tabs li.dcsmt-pinterest:hover, .tab-pinterest .dcsmt-btn {
 	background-color: #CB2528;
 }
 .tab-content.tab-lastfm, .social-tabs li.active.dcsmt-lastfm, .social-tabs li.dcsmt-lastfm:hover, .tab-lastfm .dcsmt-btn {
