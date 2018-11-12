@@ -1888,7 +1888,7 @@ body {
 /*----------------------------------------*/
 /*  18.1 Course Details Content
 /*----------------------------------------*/
-.course-details-content {margin-left: 70px;}
+/*.course-details-content {margin-left: 70px;}*/
 .single-course-details .single-item-text h4 {
     font-size: 24px;
     margin-bottom: 2px;
@@ -2712,4 +2712,8 @@ span.c-text {display: inline-block;}
     margin-left: -8%;
     margin-right: -8%;
     background:#336E7B; 
+}
+.course-text-content{
+    padding: 30px;
+    text-align: justify;
 }
