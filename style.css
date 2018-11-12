@@ -2699,3 +2699,18 @@ span.c-text {display: inline-block;}
     font-size:large;
 
 }
+
+#MenuX ul{
+    text-align: justify;
+    margin: 8% ;
+}
+#MenuX ul li{
+   padding: 8px 10px 8px 10px;
+}
+
+#MenuH:hover{
+    margin-left: -8%;
+    margin-right: -8%;
+    background:#f00; 
+
+}
