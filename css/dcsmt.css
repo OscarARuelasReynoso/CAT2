@@ -361,7 +361,7 @@
 .tab-content.tab-linkedin, .social-tabs li.active.dcsmt-linkedin, .social-tabs li.dcsmt-linkedin:hover, .tab-linkedin .dcsmt-btn {
 	background-color: #006DA7;
 }
-.tab-content.tab-instagram, .social-tabs li.active.dcsmt-instagram, .social-tabs li.dcsmt-instagram:hover, .tab-instagram .dcsmt-btn {
+ .social-tabs li.active.dcsmt-instagram, .social-tabs li.dcsmt-instagram:hover, .tab-instagram .dcsmt-btn {
 	background-color: #413A33;
 }
 
