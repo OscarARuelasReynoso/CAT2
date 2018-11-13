@@ -1899,7 +1899,7 @@ body {
 .single-course-details .single-item-content {margin-bottom: 0; padding-top: 31px;}
 .course-duration {font-family: "montserratregular"; text-transform: capitalize;}
 .duration-title {
-    color: #ffffff;
+    color: #000;
     font-size: 18px;
 }
 .duration-text {background: #f6f6f6 none repeat scroll 0 0; color: #4c4c4c;}
@@ -1911,7 +1911,7 @@ body {
 .course-duration .text span {
     display: inline-block;
     text-align: center;
-    width: 192px;
+    width: 50%;
 }
 .course-duration .text span.text-right {
     border: 0 none;
@@ -1919,7 +1919,7 @@ body {
     float: right;
     padding: 0;
     text-align: center;
-    width: 240px;
+    width: 50%;
 }
 .comments {
     color: #4c4c4c;
@@ -1986,7 +1986,7 @@ span.comment-time {padding-right: 3px; position: relative;}
     margin-bottom: 15px;
     overflow: hidden;
 }
-.sidebar-widget .single-teacher-text {padding: 20px 0 32px; position: inherit;}
+.sidebar-widget .single-teacher-text {padding: 20px 0 15px;position: inherit;}
 .tutor-image {padding-top: 37px; text-align: center;}
 .tutor-image > img {border: 2px solid #86bc42; border-radius: 50%;}
 .sidebar-widget .single-teacher-text > h3 {
@@ -2706,6 +2706,7 @@ span.c-text {display: inline-block;}
 }
 #MenuX ul li{
    padding: 8px 10px 8px 10px;
+   font-size: 88%;
 }
 
 #MenuH:hover{
@@ -2716,4 +2717,14 @@ span.c-text {display: inline-block;}
 .course-text-content{
     padding: 30px;
     text-align: justify;
+}
+
+#tituloTab span {
+    width: 100%;
+}
+.duration-title .text {
+    font-size: 80%;
+}
+.col-md-4{
+    padding-bottom: 12%;
 }
