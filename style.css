@@ -1117,10 +1117,10 @@ body {
     top: 4px;
 }
 /*----------------------------------------*/
-/*  6. Fun Factor Area
+/*  6. Fun Factor Area oscar fun fact color o imagen background
 /*----------------------------------------*/
 .fun-factor-area {
-    background: rgba(0, 0, 0, 0) url("img/banner/2.jpg") repeat scroll 0 0;
+    background-color: #43c077;
     color: #ffffff;
     padding: 100px 0;
 }
@@ -2727,4 +2727,21 @@ span.c-text {display: inline-block;}
 }
 .col-md-4{
     padding-bottom: 12%;
+}
+
+
+/*----oscar división en dos columnas */
+.flexbox-container {
+        display: -ms-flex;
+        display: -webkit-flex;
+        display: flex;
+}
+
+.flexbox-container > div {
+        width: 50%;
+        padding: 10px;
+}
+
+.flexbox-container > div:first-child {
+        margin-right: 20px;
 }
