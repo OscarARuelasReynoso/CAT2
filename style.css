@@ -1248,7 +1248,7 @@ body {
 .testimonial-area {
        background-color: #49958a;
     overflow: hidden;
-    padding: 95px 0 82px;
+    padding: 40px 0 35px;
     position: relative;
 }
 .testimonial-area:after {
@@ -1257,11 +1257,11 @@ body {
     height: 100%;
     left: 0;
     position: absolute;
-    top: 0;
+    top: 100px;
     width: 100%;
     z-index: 1;
 }
-.testimonial-image-slider {margin-top: 5px}
+.testimonial-image-slider {margin-top: 25px}
 .slick-list {margin: 0 5px}
 .sin-testiImage {
     display: inline-block;
@@ -3114,6 +3114,6 @@ transform-style: preserve-3d;}
 	.social ul li .icon-mail {background: #666666;}
  
 	.social ul li a:hover {
-		background: #000; /* Cambiamos el fondo cuando el usuario pase el mouse */
+		background: #666666; /* Cambiamos el fondo cuando el usuario pase el mouse */
 		padding: 10px 30px; /* Hacemos mas grande el espacio cuando el usuario pase el mouse */
 	}
