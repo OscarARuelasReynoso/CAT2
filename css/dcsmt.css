@@ -22,7 +22,7 @@
 	position: relative;
 }
 
-/* Tabs botones nota */
+/* Tabs */
 .social-tabs li {
 	padding: 3px 3px 3px 4px;
 	width: 40px;
@@ -44,7 +44,7 @@
 }
 /** Static **/
 .static .social-tabs {
-	padding-left: 10px;
+	padding-left: 8px;
 }
 .static .social-tabs li {
 	float: left;
@@ -71,7 +71,7 @@
 }
 /** Right **/
 .right .social-tabs {
-	padding-top: 18px;
+	padding-top: 8px;
 }
 .right .social-tabs li {
 	margin: 0 0 2px 0;
@@ -307,13 +307,13 @@
 	padding: 10px 10px 10px 0;
 }
 /** Network specific colors **/
- .social-tabs li.active.dcsmt-rss, .social-tabs li.dcsmt-rss:hover, .tab-rss .dcsmt-btn {
+.tab-content.tab-rss, .social-tabs li.active.dcsmt-rss, .social-tabs li.dcsmt-rss:hover, .tab-rss .dcsmt-btn {
 	background-color: #FF9800;
 }
- .social-tabs li.active.dcsmt-flickr, .social-tabs li.dcsmt-flickr:hover, .tab-flickr .dcsmt-btn {
+.tab-content.tab-flickr, .social-tabs li.active.dcsmt-flickr, .social-tabs li.dcsmt-flickr:hover, .tab-flickr .dcsmt-btn {
 	background-color: #f90784;
 }
- .social-tabs li.active.dcsmt-delicious, .social-tabs li.dcsmt-delicious:hover, .tab-delicious .dcsmt-btn {
+.tab-content.tab-delicious, .social-tabs li.active.dcsmt-delicious, .social-tabs li.dcsmt-delicious:hover, .tab-delicious .dcsmt-btn {
 	background-color: #3271CB;
 }
  .social-tabs li.active.dcsmt-twitter, .social-tabs li.dcsmt-twitter:hover, .tab-twitter .dcsmt-btn{
@@ -322,22 +322,22 @@
  .social-tabs li.active.dcsmt-facebook, .social-tabs li.dcsmt-facebook:hover, .tab-facebook .dcsmt-btn {
 	background-color: #3b5998;
 }
- .social-tabs li.active.dcsmt-fblike, .social-tabs li.dcsmt-fblike:hover, .tab-fblike .dcsmt-btn {
+.tab-content.tab-fblike, .social-tabs li.active.dcsmt-fblike, .social-tabs li.dcsmt-fblike:hover, .tab-fblike .dcsmt-btn {
 	background-color: #3b5998;
 }
- .social-tabs li.active.dcsmt-fbrec, .social-tabs li.dcsmt-fbrec:hover, .tab-fbrec .dcsmt-btn {
+.tab-content.tab-fbrec, .social-tabs li.active.dcsmt-fbrec, .social-tabs li.dcsmt-fbrec:hover, .tab-fbrec .dcsmt-btn {
 	background-color: #3b5998;
 }
- .social-tabs li.active.dcsmt-google, .social-tabs li.dcsmt-google:hover, .tab-google .dcsmt-btn {
+.tab-content.tab-google, .social-tabs li.active.dcsmt-google, .social-tabs li.dcsmt-google:hover, .tab-google .dcsmt-btn {
 	background-color: #2d2d2d;
 }
  .social-tabs li.active.dcsmt-youtube, .social-tabs li.dcsmt-youtube:hover, .tab-youtube .dcsmt-btn {
 	background-color: #DF1F1C;
 }
- .social-tabs li.active.dcsmt-digg, .social-tabs li.dcsmt-digg:hover, .tab-digg .dcsmt-btn {
+.tab-content.tab-digg, .social-tabs li.active.dcsmt-digg, .social-tabs li.dcsmt-digg:hover, .tab-digg .dcsmt-btn {
 	background-color: #195695;
 }
- .social-tabs li.active.dcsmt-pinterest, .social-tabs li.dcsmt-pinterest:hover, .tab-pinterest .dcsmt-btn {
+.tab-content.tab-pinterest, .social-tabs li.active.dcsmt-pinterest, .social-tabs li.dcsmt-pinterest:hover, .tab-pinterest .dcsmt-btn {
 	background-color: #CB2528;
 }
 .tab-content.tab-lastfm, .social-tabs li.active.dcsmt-lastfm, .social-tabs li.dcsmt-lastfm:hover, .tab-lastfm .dcsmt-btn {
@@ -430,7 +430,7 @@
 	line-height: 12px;
 }
 .tab-inner ul li .meta.item-comments {
-	padding: 0 0 0 30px;
+	padding: 0 0 0 35px;
 	margin: 0 0 5px 0;
 	min-height: 30px;
 	position: relative;
