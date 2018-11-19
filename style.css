@@ -1887,7 +1887,7 @@ body {
     margin-bottom: 80px;
     padding: 33px 0;
 }
-.single-course-details .single-item-text {padding-right: 48px;}
+/*.single-course-details .single-item-text {padding-right: 48px;}*/
 .course-details-area a img {margin-left: -35px;}
 .single-course-details a {display: block;}
 .single-course-details .col-md-6:first-child {padding-right: 3px;}
@@ -1900,8 +1900,7 @@ body {
 /*.course-details-content {margin-left: 70px;}*/
 .single-course-details .single-item-text h4 {
     font-size: 24px;
-    margin-bottom: 2px;
-    padding-top: 32px;
+    padding: 3% 0 1% 3%;
 }
 .single-course-details .single-item-text-info {margin-bottom: 23px;}
 .course-text-content p:first-child {margin-bottom: 21px;}
@@ -2724,7 +2723,7 @@ span.c-text {display: inline-block;}
     background:#336E7B; 
 }
 .course-text-content{
-    padding: 30px;
+    padding: 1% 5%;
     text-align: justify;
 }
 
