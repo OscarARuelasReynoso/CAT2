@@ -1932,7 +1932,7 @@ body {
 .comments {
     color: #4c4c4c;
     overflow: hidden;
-    padding: 78px 15px 20px 0;
+    padding: 4% 3%;
 }
 h4.title {
     color: #4c4c4c;
@@ -2699,10 +2699,10 @@ span.c-text {display: inline-block;}
     border: 1px solid #ddd;
   /*font-family: 'Montserrat', sans-serif;*/
 }
-.product-description-tab p {
+/*.product-description-tab p {
 
     margin-right: 3em;
-}
+}*/
 .product-description-tab .h5{
     font-size:large;
 
@@ -3116,3 +3116,7 @@ transform-style: preserve-3d;}
 		background: #666666; /* Cambiamos el fondo cuando el usuario pase el mouse */
 		padding: 10px 30px; /* Hacemos mas grande el espacio cuando el usuario pase el mouse */
 	}
+
+    .tab-pane{
+        margin: 3%;
+    }
