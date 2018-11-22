@@ -2062,7 +2062,7 @@ span.comment-time {padding-right: 3px; position: relative;}
 .breadcrumb-banner-area.no-bg {background: rgba(0, 0, 0, 0) none repeat scroll 0 0;}
 .breadcrumb-text {z-index: 9; position: relative;}
 .breadcrumb-banner-area:after {
-    background: rgba(45, 62, 80, 0.6) none repeat scroll 0 0;
+    background: rgba(45, 62, 80, 0.5) none repeat scroll 0 0;
     content: "";
     height: 100%;
     left: 0;
@@ -2071,6 +2071,27 @@ span.comment-time {padding-right: 3px; position: relative;}
     width: 100%;
     z-index: 1;
 }
+/*----------------------------------------*/
+.breadcrumb-banner-area1 {
+    background: rgba(0, 0, 0, 0) url("img/banner/4.jpg") no-repeat scroll 0 0;
+    color: #ffffff;
+    padding: 110px 0;
+    position: relative;
+}
+.breadcrumb-banner-area1.fixed-bg {background: url("img/slider/3.jpg") no-repeat fixed top center / cover}
+.breadcrumb-banner-area1.no-bg {background: rgba(0, 0, 0, 0) none repeat scroll 0 0;}
+.breadcrumb-text {z-index: 9; position: relative;}
+.breadcrumb-banner-area1:after {
+    background: rgba(45, 62, 80, 0.5) none repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+/*----------------------------------------*/
 .breadcrumb-bar .breadcrumb {
     background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
     line-height: 12px;
