@@ -1995,7 +1995,7 @@ span.comment-time {padding-right: 3px; position: relative;}
     margin-bottom: 15px;
     overflow: hidden;
 }
-.sidebar-widget .single-teacher-text {padding: 20px 0 15px;position: inherit;}
+.sidebar-widget .single-teacher-text {padding: 2% 0 15px;position: inherit;}
 .tutor-image {padding-top: 37px; text-align: center;}
 .tutor-image > img {border: 2px solid #86bc42; border-radius: 50%;}
 .sidebar-widget .single-teacher-text > h3 {
@@ -3153,6 +3153,7 @@ transform-style: preserve-3d;}
 	max-width: 31.3%;
 	text-align: center;
 	cursor: pointer;
+    background: #3085a3;
 }
 
 .grid1 figure img {
@@ -3160,8 +3161,9 @@ transform-style: preserve-3d;}
 	display: block;
 	min-height: 100%;
 	max-width: 100%;
-
+	opacity: 0.8;
 }
+
 
 .grid1 figure figcaption {
 	padding: 2em;
@@ -3197,12 +3199,13 @@ transform-style: preserve-3d;}
 }
 
 .grid1 figure h2 {
-	word-spacing: -0.15em;
-	font-weight: 300;
+
+    font-size: 130%;
 }
 
 .grid1 figure h2 span {
-	font-weight: 800;
+	
+    font-size: 130%;
 }
 
 .grid1 figure h2,
@@ -3212,7 +3215,7 @@ transform-style: preserve-3d;}
 
 .grid1 figure p {
 	letter-spacing: 1px;
-	font-size: 68.5%;
+	font-size: 0%;
 }
 
 /* Individual effects */
