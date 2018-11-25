@@ -502,8 +502,8 @@ body {
 /*  2.2.1 Header Logo
 /*----------------------------------------*/
 .logo > a {display: inline-block; position: relative; z-index: 99}
-.logo {padding-top: 38px;}
-.header-logo-menu.stick .logo {padding: 23px 0;}
+.logo {padding-top: 6%;}
+.header-logo-menu.stick .logo {padding: 1%;}
 /*----------------------------------------*/
 /*  2.2.2 Header Mainmenu
 /*----------------------------------------*/
@@ -1254,6 +1254,8 @@ body {
 /*----------------------------------------*/
 /*  9. Testimonial Area
 /*----------------------------------------*/
+
+
 .testimonial-area {
        background-image: url(img/banner/9.jpg) ;
         background-size: 100%;
@@ -1261,6 +1263,8 @@ body {
     padding: 40px 0 35px;
     position: relative;
 }
+
+
 .testimonial-area:after {
    
     content: "";
@@ -1269,7 +1273,7 @@ body {
     position: absolute;
     top: 100px;
     width: 100%;
-    z-index: 1;
+    z-index: 0;
 }
 .testimonial-image-slider {margin-top: 25px}
 .slick-list {margin: 0 5px}
@@ -1298,13 +1302,28 @@ body {
     width: 146px;
 }
 .testimonial-text-slider h2 {
-    color: #2d3e50;
+    color: #fff;
     display: block;
     font-family: "montserratregular";
     font-size: 30px;
     font-weight: 600;
     line-height: 24px;
 }
+.testimonial-section-title-wrapper h3 {
+    color: #fff;
+    display: block;
+    font-family: "montserratregular";
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 24px;
+}
+.testimonial-section-title h3 {
+    color: #fff;
+    display: block;
+    font-family: "montserratregular";
+
+}
+
 .testimonial-text-slider {
     margin: auto;
     padding: 0;
@@ -2063,6 +2082,8 @@ span.comment-time {padding-right: 3px; position: relative;}
 /*----------------------------------------*/
 .breadcrumb-banner-area {
     background: rgba(0, 0, 0, 0) url("img/banner/4.jpg") no-repeat scroll 0 0;
+    background-size:100%;
+    background-size: cover;
     color: #ffffff;
     padding: 110px 0;
     position: relative;
@@ -2078,7 +2099,7 @@ span.comment-time {padding-right: 3px; position: relative;}
     position: absolute;
     top: 0;
     width: 100%;
-    z-index: 1;
+    z-index: 0;
 }
 /*----------------------------------------*/
 .breadcrumb-banner-area1 {
@@ -2098,7 +2119,7 @@ span.comment-time {padding-right: 3px; position: relative;}
     position: absolute;
     top: 0;
     width: 100%;
-    z-index: 1;
+    z-index: 0;
 }
 /*----------------------------------------*/
 .breadcrumb-bar .breadcrumb {
@@ -3162,7 +3183,7 @@ transform-style: preserve-3d;}
 	max-width: 31.3%;
 	text-align: center;
 	cursor: pointer;
-    background: #3085a3;
+    background: #3b5998;
 }
 
 .grid1 figure img {
